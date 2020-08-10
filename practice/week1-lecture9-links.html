@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>internal links</title>
+</head>
+<body>
+	<h1>internal links</h1>
+	<section id="internal">
+		<a href="week1-lecture4.html" title="same dir link">linking to a file in the same directory</a>
+
+		<a href="week1-lecture4.html" title="same dir link">
+			<div>div linking to a file in the same diredctory</div>
+		</a>
+	</section>
+
+	<h2>external links</h2>
+	<section id="external">
+		<p>
+			link to bilibili
+			<!--link to bilibili with target-->
+			<a href="https://www.bilibili.com/"
+			target="_blank" title="link to bilibili">bilibili</a>
+		</p>
+	</section>
+
+	<h3>useless paragraph</h3>
+	<section id="useless">
+		<p>
+			The Git feature that really makes it stand apart from nearly every other SCM out there is its branching model.
+
+			Git allows and encourages you to have multiple local branches that can be entirely independent of each other. The creation, merging, and deletion of those lines of development takes seconds.
+
+			This means that you can do things like:
+
+			Frictionless Context Switching. Create a branch to try out an idea, commit a few times, switch back to where you branched from, apply a patch, switch back to where you are experimenting, and merge it in.
+			Role-Based Codelines. Have a branch that always contains only what goes to production, another that you merge work into for testing, and several smaller ones for day to day work.
+			Feature Based Workflow. Create new branches for each new feature you're working on so you can seamlessly switch back and forth between them, then delete each branch when that feature gets merged into your main line.
+			Disposable Experimentation. Create a branch to experiment in, realize it's not going to work, and just delete it - abandoning the work—with nobody else ever seeing it (even if you've pushed other branches in the meantime).
+		</p>
+	</section>
+
+	<h4>same page link</h4>
+	<section>
+		<ol>
+			<!--link to the same page-->
+			<li><a href="#internal">internal</a></li>
+			<li><a href="#external">external</a></li>
+			<li><a href="#useless">useless</a></li>
+		</ol>
+	</section>
+
+</body>
+</html>

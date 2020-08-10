@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>heading elements</title>
+	<style>
+		body{
+			padding-left: 10px;
+			}
+		section > div:hover{
+			color : blue;
+			background-size: 100px;
+		}
+		section article{
+			color:orange;
+		}
+		.alist:hover div:nth-child(odd){
+			background-color: pink;
+			font-weight: bold;
+		}
+		.alist span:nth-child(odd){
+			background-color: pink;
+		}
+		.alist p:nth-child(odd){
+			background-color: pink;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		header element-contains company logo, tag line and so on.
+		<nav>
+			navigation elements, usually contains links to other parts of this website
+		</nav>
+	</header>
+	<h1>this is the main heading of the page</h1>
+	<section>
+		section1
+		<article>article 1</article>
+		<article>article 2</article>
+	</section>
+	<section>
+		section2
+		<article>article 3</article>
+		<article>article 4</article>
+		<div>regualr div tag</div>
+	</section>
+	<aside>
+		aside - some information that relates to the main topic
+	</aside>
+
+	<footer>
+		zzz copyright 2020
+	</footer>
+
+	<section class="alist">
+		<div>div1</div>
+		<div>div2</div>
+		<div>div3</div>
+		<div>div4</div>
+		<div>div5</div>
+		<span>span1</span>
+		<span>span2</span>
+		<p>p1</p>
+		<p>p2</p>
+	</section>
+	
+</body>
+</html>
