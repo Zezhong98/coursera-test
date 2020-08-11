@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	font-weight: bold;
+	font-family: cursive, seirf, fangsong;
+}
+h1 {
+	text-align: center;
+	margin: 15px 15px 35px 15px;
+	font-size: 175%;
+}
+.section-header{
+	margin: 0px;
+	border: 1px solid black;
+	/*width: 50%;*/
+	width :150px;
+	height: 35px;
+	background-color: #C8EA5C;
+	text-align: center;
+	font-size: 125%;
+	float: right;
+	}
+.language > .inside > .section-header{
+	background-color: #C894BE;
+}
+.cuisine > .inside > .section-header{
+	background-color: #DDDA60;
+}
+div {
+	margin: 0px;
+}
+section.inside {
+	margin: 5px;
+	background-color: #CDD7BF;
+	border: 1px black solid;
+}
+p {
+	padding-top: 40px;
+	margin: 5px 15px 5px 15px;
+	/*overflow: hidden;*/
+	/*font-size: 90%;*/
+}
+
+div {
+	width: 100%;
+	float: left;
+	height: auto;
+}	
+
+@media (min-width: 768px) and (max-width: 991px)	{
+	.language, .architecture{
+		width: 50%;
+	}
+}
+
+@media (min-width:992px) {
+	div{
+		width: 33.3%;
+	}
+}
