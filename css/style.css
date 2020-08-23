@@ -1,0 +1,49 @@
+body {
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'Baloo Tamma 2', cursive;
+}
+
+.navbar {
+	border: 2px solid black;
+	background-color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Large */
+@media (min-width: 1200px) {
+
+}
+
+/* Large -- desktop mockup */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Medium -- tablet mockup  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Small -- tablet mockup */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Extra Small -- Mobile mockup */
+@media (max-width: 575px) {
+
+}
+
+
